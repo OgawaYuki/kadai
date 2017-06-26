@@ -27,7 +27,7 @@ namespace gyaku_ni_siyou
                 Console.WriteLine(dasuyatu);
                 if (uttayatu == "end") 
                 {
-                    break;
+                    break;//aaaaaa
                 }
             }
 
