@@ -10,6 +10,8 @@ namespace gyaku_ni_siyou//打った文を逆にして吐き出してくれる、
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("打ち込まれた文を逆さまにします。");
+            Console.WriteLine("終了したい場合は、「end」と打ち込んでください。");
             while (true)
             {
                 string uttayatu = Console.ReadLine();
@@ -22,9 +24,9 @@ namespace gyaku_ni_siyou//打った文を逆にして吐き出してくれる、
                     char gyaku = uttayatu[mozikazu];
                     dasuyatu = gyaku + dasuyatu;
                     mozikazu = mozikazu + 1;
-
                 }
                 Console.WriteLine(dasuyatu);
+                
                 if (uttayatu == "end") 
                 {
                     break;//aaaaaa
