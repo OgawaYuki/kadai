@@ -10,8 +10,11 @@ namespace gyaku_ni_siyou//打った文を逆にして吐き出してくれる、
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.BackgroundColor = ConsoleColor.Yellow;
             Console.WriteLine("打ち込まれた文を逆さまにします。");
             Console.WriteLine("終了したい場合は、「end」と打ち込んでください。");
+            Console.ResetColor();
             while (true)
             {
                 string uttayatu = Console.ReadLine();
