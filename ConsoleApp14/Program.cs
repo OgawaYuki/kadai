@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gyaku_ni_siyou
+namespace gyaku_ni_siyou//打った文を逆にして吐き出してくれる、無意味なプログラムです。
 {
     class Program
     {
